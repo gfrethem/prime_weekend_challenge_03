@@ -1,6 +1,7 @@
 body {
-    background-color: turquoise;
+    background-color: darkcyan;
 }
+
 .jcarousel {
 
     background-color: white;
@@ -9,9 +10,11 @@ body {
     margin: 0 auto;
     width: 500px;
 }
+
 .jcarousel h1 {
     text-align: center;
- }
+    color: cornflowerblue;
+}
 
 .jcarousel ul {
 
@@ -23,7 +26,6 @@ body {
     margin: 0;
     padding: 0;
 }
-
 
 .jcarousel li {
     /* Required only for block elements like <li>'s */
@@ -37,27 +39,29 @@ body {
     font-size: larger;
     color: coral;
 }
+
 h1 {
-    color: cornflowerblue;
+    text-align: center;
 }
 
 .nav {
-    /*background-color: white;*/
     margin: 0 auto;
     width: 500px;
-    /*height: 150px;*/
-    /*text-align: center;*/
 }
+
 .nav p {
     margin: 0 0 0 5px;
 }
+
 #left {
     float: left;
     margin: 0 9px 0 0;
 }
+
 #right {
     float: right;
 }
+
 .jcarousel-pagination a {
     text-decoration: none;
     display: inline-block;

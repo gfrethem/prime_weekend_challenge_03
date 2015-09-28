@@ -9,8 +9,8 @@ $(function() {
             var studentName = response[i].name;
             var studentDescription = response[i].description;
             var studentShoutOut = response[i].shoutOut;
-            var $htmlToAppend = '<li><h1>' + studentName + '</h1><p>' + studentDescription + '</p><p class="shoutOut">'
-                + studentShoutOut + '</p></li>';
+            var $htmlToAppend = '<li><h1>' + studentName + '</h1><p>' + studentDescription + '</p><p class="shoutOut">"'
+                + studentShoutOut + '"</p></li>';
             $('.students').append($htmlToAppend);
         };
             $('.jcarousel').jcarousel({wrap:'both'});
